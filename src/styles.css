@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.center {
+  text-align: center;
+}
+.grey {
+  color:grey;
+}
+
+
+div.middle {
+  height: 200px;
+  width: 400px;
+  /* background: black; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+
+}

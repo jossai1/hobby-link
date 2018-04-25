@@ -1,0 +1,30 @@
+<div class="ui two column centered grid">
+  <div class="column">
+    <div class="middle center">
+
+        <h1 class="center"> Hobby Link </h1>
+        <div class="ui divider"></div>
+
+        <!-- input -->
+        <div class="ui input login-form">
+           <input aria-label="email"  [(ngModel)]="email" type="text" placeholder="Email">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="ui input login-form">
+           <input aria-label="password"  [(ngModel)]="password" type="password"  placeholder="Password">
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!-- buttons -->
+        <button (click)="login()" class="massive ui teal button">Login</button>
+        <button class="massive ui teal basic button" (click)="register()">Register</button>
+
+      </div>
+
+  </div>
+
+</div>

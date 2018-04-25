@@ -1,0 +1,21 @@
+.hobby {
+  height: 230px;
+  position: relative;
+
+}
+
+.hobby:hover {
+  opacity: 0.8;
+}
+
+.space-hobby {
+
+}
+
+.vertical-labels {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: x-large;
+}
