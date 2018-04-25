@@ -9,7 +9,7 @@
   <div class="content">
     <div class="header center">{{hobby.name}}</div>
 
-    <span class="left floated like" (click)="nextQ(hobby)">
+    <span *ngIf="hobby.next !== 2" class="left floated like" (click)="nextQ(hobby)">
       <i class="like icon"></i>
       Like
     </span>
