@@ -73,7 +73,7 @@ export class LoginComponent implements OnInit {
         this.router.navigate(["register"]);
       } else {
         this.nonUniEmail = true;
-        alert("Sorry, this app is only available to University students :)");
+        // alert("Sorry, this app is only available to University students :)");
       }
     }
   }

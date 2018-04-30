@@ -1,24 +1,33 @@
+<div class="ui container">
 
-<div class="middle" *ngFor="let hobby of hobbyArray;let hobNum = index">
+
+  <div class="middle" *ngFor="let hobby of hobbyArray;let hobNum = index">
 
 
-<div *ngIf="hobby.show" class="ui centered card  animated slideInRight">
-  <div class="image">
-    <img [src]="hobby.img">
-  </div>
-  <div class="content">
-    <div class="header center">{{hobby.name}}</div>
+    <div *ngIf="hobby.show" class="ui centered card  animated slideInRight">
+      <div class="image">
+        <img [src]="hobby.img">
+      </div>
+      <div class="content">
+        <div class="header center">{{hobby.name}}</div>
 
-    <span *ngIf="hobby.next !== 2" class="left floated like" (click)="nextQ(hobby)">
+        <span *ngIf="hobby.next !== 2" class="left floated like" (click)="nextQ(hobby)">
       <i class="like icon"></i>
-      Like
+      interested
     </span>
-    <span class="right floated delete">
+        <span class="right floated delete">
       <i class="delete icon"></i>
-      Dislike
+      not interested
     </span>
+      </div>
+    </div>
   </div>
-</div>
+
+  <footer id="footer" class="center">
+    <div>Icons made by <a href="http://www.iconarchive.com/artist/iynque.html" title="IconArchive">Iynque</a> from <a href="https://www.iconfinder.com/icons/991044/audio_down_music_production_remix_song_up_icon#size=256" title="Icon Archive">www.IconArchive.com</a>    is licensed by <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons BY 3.0" target="_blank">CC BY-NC-ND 4.0</a></div>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </footer>
 </div>
 
 

@@ -1,0 +1,20 @@
+/*i.icon.like:hover {
+color: #27ae60;
+}*/
+
+i.icon.delete {
+color: #848484;
+}
+
+i.icon.delete:hover {
+color: #3498db;
+}
+
+#footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: xx-small;
+  color: gray;
+}

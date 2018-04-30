@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
     this.uniName = this.sharedService.getUniName() ;
   }
 
-  hobbyArray: Array<Object> = [{"name":"Music", "show":true, "next":1,"img":"../assets/images/music-icon.png"}, {"name":"R&B","show":false,"next":2,"img":"../assets/images/music-prod.png"}];
+  hobbyArray: Array<Object> = [{"name":"Music", "show":true, "next":1,"img":"../assets/images/music-icon.png"}, {"name":"Singing","show":false,"next":2,"img":"../assets/images/singer.png"}];
 
   hobbies:string[] = ["Music", "Sport", "Cooking", "Reading", "Programming","Photography"] ;
 
